@@ -94,5 +94,5 @@ names(final_ds)
 
 ############## Output of final tidy dataset into flat file
 
-write.table(final_ds, "final_ds.txt", row.name=FALSE)
+write.table(final_ds, "tidy.txt", row.name=FALSE)
 
